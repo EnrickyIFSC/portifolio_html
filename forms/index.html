@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container"> 
+    <form action="receber.php" method="POST">
+      <fieldset>
+      <legend>Dados Pessoais</legend>
+
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name">
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+      </div>
+
+      <div>
+        <label for="birth">Data de Nascimento:</label>
+        <input type="date" name="birth" id="birth">
+      </div>
+
+      <div>
+        <label for="phone">Telefone:</label>
+        <input type="tel" name="phone" id="phone">
+      </div>
+
+      <div>
+        <label for="password">Passowrd:</label>
+        <input type="password" name="password" id="password">
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Conhecimentos</legend>
+
+      <div>
+        <label>Nível de Experiência</label>
+        <div>
+          <input type="radio" name="nivel" value="junior" id="junior">
+          <label for="junior">Júnior</label>
+        </div>
+        <div>
+          <input type="radio" name="nivel" value="pleno" id="pleno">
+          <label for="pleno">Pleno</label>
+        </div>
+        <div>
+          <input type="radio" name="nivel" value="senior" id="senior">
+          <label for="senior">Senior</label>
+        </div>
+      </div>
+
+      <br>
+
+      <div>
+        <label>Linguagens e Conhecimentos</label>
+        <div>
+          <input type="checkbox" name="js" value="js" id="js">
+          <label for="js">JavaScript</label>
+        </div>
+        <div>
+          <input type="checkbox" name="ts" value="ts" id="ts">
+          <label for="ts">TypeScript</label>
+        </div>
+        <div>
+          <input type="checkbox" name="php" value="php" id="php">
+          <label for="php">PHP</label>
+        </div>
+        <div>
+          <input type="checkbox" name="sql" value="sql" id="sql">
+          <label for="sql">SQL</label>
+        </div>
+        <div>
+          <input type="checkbox" name="html" value="html" id="html">
+          <label for="html">HTML</label>
+        </div>
+        <div>
+          <input type="checkbox" name="css" value="css" id="css">
+          <label for="css">CSS</label>
+        </div>
+        <div>
+          <input type="checkbox" name="cs" value="cs" id="cs">
+          <label for="cs">C#</label>
+        </div>
+        <div>
+          <input type="checkbox" name="java" value="java" id="java">
+          <label for="java">Java</label>
+        </div>
+        <div>
+          <input type="checkbox" name="react" value="react" id="react">
+          <label for="react">React</label>
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <legend>Áreas de Interesse</legend>
+
+      <div>
+        <label>Áreas de Interesse</label>
+        <div>
+          <input type="checkbox" name="dev" value="dev" id="dev">
+          <label for="dev">Desenvolvedor</label>
+        </div>
+
+        <div>
+          <input type="checkbox" name="tester" value="tester" id="tester">
+          <label for="tester">Tester</label>
+        </div>
+        
+        <div>
+          <input type="checkbox" name="dba" value="dba" id="dba">
+          <label for="dba">DBA</label>
+        </div>
+      </div>
+
+      <div>
+        <label for="pretensao">Pretensão Salarial</label>
+        <input type="number" step="0.01" name="pretensao" id="pretensao">
+      </div>
+
+    </fieldset>
+    <fieldset>
+      <legend>Termos de Uso</legend>
+      <div>
+        <label for="termos">Termos de Uso:</label>
+          <div>
+            <textarea disabled name="termos" id="termos">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium recusandae ducimus accusamus perferendis non sapiente. Perspiciatis, fugit eos? Mollitia officia porro aspernatur recusandae, quidem labore eaque consequatur ullam temporibus a. fugit eos? Mollitia officia porro aspernatur recusandae, quidem labore eaque consequatur ullam temporibus a.fugit eos? Mollitia officia porro aspernatur recusandae, quidem labore eaque consequatur ullam temporibus a.fugit eos? Mollitia officia porro aspernatur recusandae, quidem labore eaque consequatur ullam temporibus a.fugit eos? Mollitia officia porro aspernatur recusandae, quidem labore eaque consequatur ullam temporibus a.fugit eos? Mollitia officia porro aspernatur recusandae, quidem labore eaque consequatur ullam temporibus a.
+            </textarea>
+            <br>
+          </div>
+        <input type="checkbox" id="aceitar" value="aceitar" required>
+        <label for="aceitar">Aceitar Termos</label>
+    </div>
+    </fieldset>
+
+    <input type="submit" value="Enviar">
+  </form>
+</div>
+</body>
+</html>
+ 
