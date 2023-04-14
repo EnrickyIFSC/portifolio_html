@@ -42,13 +42,17 @@ footer {
   font-style: italic;
 }
 
-
 h2 {
   font-size: 50px;
 }
 
+article, aside {
+  padding: 30px;
+}
+
 #main_img {
   width: 100%;
+  display: block;
 }
 
 #content {
@@ -106,5 +110,46 @@ figcaption {
   font-size: 14px;
 }
 
+aside div {
+  margin-bottom: 100px;
+}
+
+#reciclagem_img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+}
+
+@media (max-width: 800px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  #title small {
+    font-size: 18px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #title {
+    padding: 30px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  article p, ul {
+    font-size: 20px;
+  }
+}
 
 
