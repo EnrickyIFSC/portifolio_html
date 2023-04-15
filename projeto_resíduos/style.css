@@ -120,6 +120,10 @@ aside div {
   width: 30%;
 }
 
+a {
+  color: black;
+}
+
 @media (max-width: 800px) {
   #content {
     display: flex;
