@@ -27,7 +27,7 @@ footer {
   background-color: rgb(57, 57, 57);
   text-align: center;
   padding: 20px;
-  color: white;
+  color: white; 
 }
 
 #title {
@@ -64,7 +64,6 @@ article, aside {
 
 article {
   text-align: justify;
-  padding-right: 40px;
   margin-top: 90px;
 }
 
@@ -132,27 +131,32 @@ a {
 
   #title {
     text-align: center;
+    padding: 30px;
   }
 
   #title small {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   main {
     display: flex;
     flex-direction: column;
   }
-
-  #title {
-    padding: 30px;
-  }
-
+  
   h2 {
-    font-size: 35px;
+    font-size: 25px;
   }
 
-  article p, ul {
-    font-size: 20px;
+  article h3 {
+    font-size: 25px;
+  }
+
+  article p {
+    font-size: 17px;
+  }
+
+  ul {
+    padding: 20px 0 20px 20px;
   }
 }
 
